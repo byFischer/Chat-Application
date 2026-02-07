@@ -13,24 +13,6 @@ Birden fazla kullanıcı aynı anda sohbet edebiliyor. Server tarafı mesajları
 - Maven
 - Socket Programlama
 
-## Proje Yapısı
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   ├── client/
-│   │   │   ├── ChatClient.java      # Ana uygulama (JavaFX)
-│   │   │   ├── ChatController.java  # Arayüz kontrolü
-│   │   │   └── SimpleClient.java    
-│   │   └── server/
-│   │       ├── SimpleServer.java    # Server başlatma
-│   │       └── ClientHandler.java   # Her client için ayrı thread
-│   └── resources/
-│       └── client/
-│           └── chat.fxml            # Arayüz tasarımı
-```
-
 ## Gereksinimler
 
 - Java 17+
