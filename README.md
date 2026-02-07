@@ -69,9 +69,11 @@ Uygulama açılınca kullanıcı adınızı girip bağlanabilirsiniz.
 - Kullanıcı ismi ile giriş
 - Basit ve kullanışlı arayüz
 
-## Ekran Görüntüsü
+## Ekran Görüntüleri
 
-Uygulama açıldığında kullanıcı adı soruluyor, sonra sohbet ekranı açılıyor and mesaj atabiliyorsunuz.
+![Uygulama Ekran Görüntüleri](screenshots/app-screenshots.jpg)
+
+*Sol: Giriş ekranı - Kullanıcı adı girişi | Sağ: Sohbet ekranı - Çoklu kullanıcı sohbeti*
 
 ## Notlar
 
