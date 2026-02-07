@@ -38,25 +38,17 @@ src/
 
 ## Nasıl Çalıştırılır?
 
-### Kolay Yol (Windows)
-
-1. `start-server.bat` dosyasına çift tıklayın (server başlar)
-2. `start-client.bat` dosyasına çift tıklayın (chat açılır)
-
-Birden fazla client açmak için `start-client.bat`'a tekrar tıklayabilirsiniz.
-
-### Manuel Yol
-
-**1. Server'ı başlat:**
+### 1. Önce Server'ı Başlat
 
 ```bash
-mvn compile exec:java -Dexec.mainClass="server.SimpleServer"
+# server klasöründeki SimpleServer.java dosyasını çalıştır
+# Port: 5000
 ```
 
-**2. Client'ı başlat:**
+### 2. Client'ı Aç
 
 ```bash
-mvn javafx:run
+mvn clean javafx:run
 ```
 
 Uygulama açılınca kullanıcı adınızı girip bağlanabilirsiniz.
