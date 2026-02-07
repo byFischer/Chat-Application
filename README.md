@@ -71,9 +71,9 @@ Uygulama açılınca kullanıcı adınızı girip bağlanabilirsiniz.
 
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüleri](screenshots/app-screenshots.jpg)
+![Giriş Ekranı](screenshots/java%20proje%20.jpg)
 
-*Sol: Giriş ekranı - Kullanıcı adı girişi | Sağ: Sohbet ekranı - Çoklu kullanıcı sohbeti*
+![Sohbet Ekranı](screenshots/proje%202.jpg)
 
 ## Notlar
 
