@@ -34,21 +34,30 @@ src/
 ## Gereksinimler
 
 - Java 17+
-- Maven
 
 ## Nasıl Çalıştırılır?
 
-### 1. Önce Server'ı Başlat
+### JAR Dosyaları ile (Önerilen)
+
+Releases kısmından JAR dosyalarını indirin veya kendiniz build edin:
 
 ```bash
-# server klasöründeki SimpleServer.java dosyasını çalıştır
-# Port: 5000
+# Server'ı başlat
+java -jar ChatServer.jar
+
+# Yeni bir terminal aç ve Client'ı başlat
+java -jar ChatClient.jar
 ```
 
-### 2. Client'ı Aç
+### Kaynak Koddan
+
+Maven kurulu olmalı:
 
 ```bash
-mvn clean javafx:run
+# JAR oluştur
+mvn clean package
+
+# JAR dosyaları target/ klasörüne oluşur
 ```
 
 Uygulama açılınca kullanıcı adınızı girip bağlanabilirsiniz.
